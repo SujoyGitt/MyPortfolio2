@@ -1,0 +1,31 @@
+.Projectmind{
+  min-width: 100%;
+  min-height: 95vh;
+}
+.Projectmind .container-fluid{
+  background-color: var(--blue);
+}
+.Projectmind .container-fluid {
+  color: var(--white);
+}
+.Projectmind .container-fluid *{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.Projectmind .container-fluid p{
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.Projectmind .container-fluid a{
+  padding: 13px 25px;
+text-decoration: none;
+  font-size: 1.4rem;
+  border-radius: 3rem;
+  color: var(--blue);
+  background: white;
+  font-weight: 700;
+  transition: .4s;
+}
+.Projectmind .container-fluid h1{
+  font-size: 3rem;
+}

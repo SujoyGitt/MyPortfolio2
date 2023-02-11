@@ -1,0 +1,54 @@
+.service{
+  min-width: 100%;
+  min-height: 95vh;
+}
+.service .container{
+  margin-top: 7rem;
+}
+.service h5{
+  color: var(--blue);
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.service h1{
+  font-weight: bold;
+}
+.service .servicebox{
+  border:1px solid rgb(206, 206, 206);
+  border-top-right-radius: 4rem;
+  position: relative;
+  margin-left: 4rem;
+  margin-top: 6rem;
+}
+.service .servicebox span {
+  position: absolute;
+  width: 5rem;
+  height: 5rem;
+  background: var(--blue);
+  border-radius: .5rem;
+  top: -2.8rem;
+  left: 13%;
+  text-align: center;
+  line-height: 5rem;
+}
+.service .servicebox span svg{
+  font-size: 3rem;
+  color: aliceblue;
+}
+.service .servicebox h4{
+  font-weight: bold;
+  font-size: 1.8rem;
+  color: var(--deepblue);
+}
+.service .servicebox p{
+  font-size: 1.25rem;
+}
+@media (max-width:776px) {
+  .service .servicebox{
+    margin-left: 0rem;
+  }
+}@media (max-width:578px) {
+  .service .servicebox{
+    margin-left: 4rem;
+  }
+}

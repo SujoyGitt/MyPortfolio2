@@ -1,0 +1,38 @@
+.footer{
+  min-width: 100%;
+  min-height: 90vh;
+  background: white;
+}
+.footer .container-fluid{
+  background: var(--deepblue);
+  color: whitesmoke;
+}
+.footer .logo{
+  border: 1.5px solid whitesmoke;
+  font-size: 3.5rem;
+  display: inline-block;
+  width: 4rem;
+  height: 4rem;
+  text-align: center;
+  line-height:  3.4rem;
+  font-weight: bold;
+}
+.footer .container-fluid .col-12 *{
+  margin-top: 1rem;
+}
+.footer .container-fluid .col-12 p{
+font-size: 1.3rem;
+}
+.footer .container-fluid .col-12 ul li{
+  list-style: none;
+  display: inline-block;
+  margin-right: 1.2rem;
+}
+.footer .container-fluid .col-12 li a svg{
+  color: white;
+  font-size: 3rem;
+}
+.footer .container-fluid .col-12 p:last-child{
+  margin-top: 2rem;
+  font-size: 1.1rem;
+}

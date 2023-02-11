@@ -1,0 +1,87 @@
+.contact{
+  min-width: 100%;
+  min-height: 90vh;
+}
+.contact .submitbtn{
+  position: relative;
+}
+.contact .submitbtn .btn{
+  position: absolute;
+  left: 0;
+  top: 0;
+  white-space: nowrap;
+  transition: .2s;
+  cursor: pointer;
+  padding: 1.4rem 3rem;
+  border-radius: 3rem;
+  background: var(--blue);
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  font-weight: bold;
+  transition: .4s;
+}
+.btnadd{
+  left: 70% !important;
+}
+.contact h5{
+  color: var(--blue);
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 1.8rem;
+}
+.contact h1{
+  font-weight: bold;
+  font-size: 4rem;
+}
+.contact .contactinformation svg{
+  font-size: 2.8rem;
+  color: whitesmoke;
+}
+.contact input::placeholder{
+  font-size: 1.5rem;
+}
+.contact .contactinformation .col-4{
+  width: 5rem;
+  height: 5rem;
+  background: var(--blue);
+  text-align: center;
+  line-height: 5rem;
+  border-radius: 50%;
+}
+.contact .contactinformation h5{
+  font-weight: 700;
+  color: black;
+}
+.contact .contactinformation p{
+ color: var(--deepgrey);
+ font-size: 1.6rem;
+}
+.contact .contactinformation a{
+ color: var(--deepgrey);
+ font-size: 1.6rem;
+ text-decoration: none;
+}
+.contact .contactinformation .col-12:nth-child(2){
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.contact textarea{
+  font-size: 1.6rem;
+}.contact input{
+  font-size: 1.6rem;
+}
+.contact .btn:hover{
+  border: 1.5px solid var(--blue);
+  color: var(--blue);
+  background: white;
+}
+@media (max-width:776px) {
+  .contact .submitbtn{
+    height: 100px;
+  }
+}
+@media (max-width:567px) {
+  .btnadd{
+    left: 50% !important;
+  }
+}
